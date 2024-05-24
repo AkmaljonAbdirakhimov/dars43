@@ -15,7 +15,9 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Bosh Sahifa"),
       ),
-      drawer:  CustomDrawer(onThemeModeChanged: onThemeModeChanged),
+      drawer: CustomDrawer(
+        onThemeModeChanged: onThemeModeChanged,
+      ),
     );
   }
 }

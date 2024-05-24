@@ -15,7 +15,9 @@ class SettingsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Sozlamalar"),
       ),
-      drawer: CustomDrawer(onThemeModeChanged: onThemeModeChanged),
+      drawer: CustomDrawer(
+        onThemeModeChanged: onThemeModeChanged,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(

@@ -30,7 +30,9 @@ class _MyAppState extends State<MyApp> {
       ),
       darkTheme: ThemeData.dark(),
       themeMode: AppConstants.themeMode,
-      home: HomeScreen(onThemeModeChanged: changeThemeMode),
+      home: HomeScreen(
+        onThemeModeChanged: changeThemeMode
+        ),
     );
   }
 }
